@@ -1,8 +1,123 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+/*tout texte en Jaune*/
+
+.yellowText {
+  color: #fef200;
+}
+
+/* Header hero */
+
+.header--main {
+  background: #fff center url("../public/images/Group6658.png");
+  height: 877px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menuContainer {
+  padding-top: 50px;
+}
+
+.header--hero {
+  padding-top: 11.8rem;
+  width: 55%;
+  margin-left: 10vw;
+}
+
+.header--hero > h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 62px;
+  margin-bottom: 0;
+  color: #ffffff;
+
+  text-shadow: 0px 3.89189px 3.89189px rgba(0, 0, 0, 0.4);
+}
+
+.header--text {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #ffffff;
+  width: 390px;
+  text-shadow: 0px 6.24264px 6.24264px rgba(0, 0, 0, 0.4);
+}
+
+.btn-header {
+  padding: 15px, 46px, 15px, 46px;
+  width: 280px;
+  height: 59px;
+  margin-left: 10vw;
+  margin-top: 30px;
+  background: linear-gradient(90deg, #009649 0%, #43e7ad 57.81%, #fef200 100%);
+  border-radius: 7px;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.8906px;
+  line-height: 29px;
+
+  color: #18181d;
+}
+
+.image--icon {
+  margin: 65px 15vw;
+  height: 50px;
+  align-items: center;
+  align-content: center;
+  padding: 2px 2px;
+}
+
+.image--icon > img {
+  padding-right: 65px;
+  max-width: 75px;
+  max-height: 50px;
+}
+
+/*menu one inside the header */
+
+.menu1--first {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 80%;
+  min-width: 500px;
+  height: 80px;
+  background: #182b25;
+  border-radius: 8px;
+  align-self: center;
+  margin: auto;
+  position: relative;
+
+  border-top: 4px solid;
+  border-image: linear-gradient(90deg, #009649 0%, #43e7ad 57.81%, #fef200 100%) -1;
+}
+
+.menu1--logo {
+  padding-left: 60px;
+  height: 68px;
+}
+
+.menu1--text {
+  display: flex;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-right: 20px;
+}
+
+.menu1--text > h4 {
+  padding-right: 20px;
 }
