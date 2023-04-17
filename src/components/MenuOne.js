@@ -1,6 +1,6 @@
 function MenuOne() {
   return (
-    <container className="menu1--container">
+    <div className="menu1--container">
       <div className="menu1--first">
         <img src="./images/logo.png" alt="logo" className="menu1--logo" />
         <div className="menu1--text">
@@ -10,7 +10,7 @@ function MenuOne() {
           <h4>FR/EN</h4>
         </div>
       </div>
-    </container>
+    </div>
   );
 }
 

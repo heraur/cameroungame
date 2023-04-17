@@ -13,9 +13,13 @@ body {
 
 .header--main {
   background: #fff center url("../public/images/Group6658.png");
-  height: 877px;
+  height: 120vh;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .menuContainer {
@@ -23,7 +27,7 @@ body {
 }
 
 .header--hero {
-  padding-top: 11.8rem;
+  padding-top: 8%;
   width: 55%;
   margin-left: 10vw;
 }
@@ -75,12 +79,20 @@ body {
   align-items: center;
   align-content: center;
   padding: 2px 2px;
+  position: relative;
+  align-content: center;
 }
 
 .image--icon > img {
-  padding-right: 65px;
+  padding-right: 45px;
   max-width: 75px;
   max-height: 50px;
+}
+
+.arrow-icon {
+  position: relative;
+  display: flex;
+  align-self: center;
 }
 
 /*menu one inside the header */
@@ -98,7 +110,7 @@ body {
   margin: auto;
   position: relative;
 
-  border-top: 4px solid;
+  border-top: 4px;
   border-image: linear-gradient(90deg, #009649 0%, #43e7ad 57.81%, #fef200 100%) -1;
 }
 
@@ -116,8 +128,440 @@ body {
   line-height: 24px;
   color: #ffffff;
   padding-right: 20px;
+  text-align: center;
+  padding: 2%;
 }
 
 .menu1--text > h4 {
   padding-right: 20px;
+}
+
+/*..............................all css related to main...................... */
+.mainsection {
+  background: #182b25;
+  align-items: center;
+  padding: 90px 25px;
+  position: relative;
+  padding-bottom: 30%;
+}
+
+.main--backimageright {
+  position: absolute;
+  width: 577.01px;
+  height: 1395.45px;
+  z-index: 0;
+  right: 0;
+  top: -400.38px;
+}
+
+.main--backimageleft {
+  position: absolute;
+  width: 577.01px;
+  height: 1395.45px;
+  z-index: 0;
+  left: 0;
+  top: -400.38px;
+}
+
+.container--mainsection {
+  width: 90%;
+  height: 811px;
+  background: #121214;
+  border-radius: 17px;
+  position: relative;
+  margin: auto;
+}
+
+.container--h5 {
+  position: inherit;
+  width: 116px;
+  height: 30px;
+  left: 62px;
+  top: 46px;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.403187px;
+  background: linear-gradient(90deg, #009649 0%, #43e7ad 57.81%, #fef200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.container--h4,
+.containner--p {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-size: 35.8389px;
+  line-height: 44px;
+  letter-spacing: -0.403187px;
+  left: 62px;
+  color: #ffffff;
+  position: inherit;
+}
+.container--h4 {
+  font-weight: 700;
+  margin-bottom: -18px;
+}
+
+.container--p {
+  font-weight: 300;
+}
+
+.divider {
+  width: 50vw;
+  right: -5%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    90deg,
+    #009649 0%,
+    #43e7ad 57.81%,
+    #fef200 100%
+  );
+  position: inherit;
+  display: flex;
+  align-items: first baseline;
+}
+
+.container--text {
+  font-family: "Clash Display";
+  font-style: light;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: justify;
+  letter-spacing: -0.403187px;
+  position: inherit;
+  color: #ffffff;
+  margin: 34px 62px;
+}
+
+.container--imgsection {
+  display: flex;
+  padding: 5px 62px;
+  position: relative;
+}
+
+.container--imgsection > img {
+  width: 80%;
+  height: auto;
+  padding-right: 2%;
+}
+
+/*...........section 2 du main section ..............*/
+
+.section2 {
+  width: 100%;
+  background: linear-gradient(180deg, rgba(18, 18, 20, 0) 0%, #1a2a24 80%);
+  opacity: 0.8;
+}
+
+.section2--childone {
+  position: relative;
+  width: 90%;
+  height: 641px;
+  margin: auto;
+  background: #121214;
+  border-radius: 17px;
+  margin-top: -20%;
+  z-index: -100;
+  margin-bottom: 20%;
+}
+
+.childone--h5 {
+  position: relative;
+  min-width: 262px;
+  height: 29px;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.403187px;
+  padding: 40px 54px;
+  margin-bottom: 0%;
+  background: linear-gradient(90deg, #009649 0%, #43e7ad 57.81%, #fef200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.childone--h4 {
+  position: relative;
+  width: 590px;
+  height: 85px;
+  left: 54px;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-bottom: 5%;
+}
+
+.section2--childone > p {
+  position: relative;
+  width: 35%;
+  height: 46px;
+  left: 54px;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.403187px;
+  padding-bottom: 8%;
+  color: #ffffff;
+}
+
+.dOne {
+  width: 80% !important;
+  right: 6%;
+}
+
+.childone--button {
+  position: inherit;
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  left: 7%;
+  margin-top: 5%;
+}
+
+.childone--button > button {
+  height: 60.96195983886719px;
+  width: 234px;
+  padding: 15px 42px 15px 29px;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.8906px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #18181d;
+
+  background: linear-gradient(90deg, #009649 0%, #43e7ad 57.81%, #fef200 100%);
+  border-radius: 7px;
+}
+
+/*.............form ..............*/
+.section2--form {
+  position: absolute;
+  margin-top: -50%;
+  height: 90vh;
+  width: 30vw;
+  float: right;
+  right: 15%;
+  padding: 32px 40px 32px 40px;
+  background: #2a2634;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  color: white;
+  z-index: 500;
+}
+
+.form--title {
+  width: 247px;
+  height: 51px;
+
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 160%;
+  margin: auto;
+}
+
+.btn-form {
+  background: linear-gradient(90deg, #009649 0%, #43e7ad 57.81%, #fef200 100%);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  width: 211px;
+  height: 48px;
+}
+
+.btn-containeur {
+  display: flex;
+  position: relative;
+  left: 20%;
+  margin-top: 10%;
+}
+
+.red-stars {
+  color: #f40000;
+}
+
+.btn-fin {
+  display: flex;
+  gap: -1%;
+  width: 80%;
+  margin-top: 7%;
+  margin-left: 20%;
+}
+
+.btn-compte {
+  width: 45%;
+  height: 20px;
+
+  /* Text sm/Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Gray/500 */
+
+  color: #667085;
+}
+
+.btn-connect {
+  width: 40%;
+  height: 20px;
+
+  /* Text sm/Semibold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #006d33;
+}
+
+.text2--header {
+  text-align: center;
+  position: inherit;
+}
+
+.text2--title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 44px;
+  /* identical to box height, or 92% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #fef200;
+}
+
+.text2-p {
+  width: 768px;
+  height: 60px;
+  position: relative;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+  margin: auto;
+  color: #ffffff;
+}
+
+.text2--innersection {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 32px;
+  position: relative;
+  margin: 5% 10%;
+}
+
+.first,
+.second,
+.last {
+  text-align: center;
+  padding: 10px 0px;
+  gap: 20px;
+  width: 384px;
+  height: 174px;
+  border-radius: 8px;
+}
+
+.inner--title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #fef200;
+}
+
+.inner--text {
+  width: 384px;
+  height: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.btn-contentInner {
+  display: flex;
+}
+
+.btn-innersection {
+  position: relative;
+  background: linear-gradient(90deg, #009649 0%, #43e7ad 57.81%, #fef200 100%);
+  border-radius: 7px;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.8906px;
+  line-height: 29px;
+  padding: 15px 46px;
+  color: #18181d;
+  margin: 5% 40%;
+}
+
+/*...............footer ........................... */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  height: 101px;
+  background: #006d33;
+  border-top: 1px solid #ffffff;
+}
+
+.footer--text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
 }
