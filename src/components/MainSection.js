@@ -262,6 +262,119 @@ function MainSection() {
           </div>
         </div>
       </div>
+
+      <div className="section3">
+        <div className="section3--firstchild">
+          <div className="first--left">
+            <img src="./images/image3.png" alt="" className="left--img1" />
+            <img src="./images/image4.png" alt="" className="left--img2" />
+          </div>
+          <div className="first--right">
+            <div className="right--up">
+              <img src="./images/material-symbols_calendar-today.png" alt="" />
+              <p> Septembre à décembre 2023</p>
+              <img src="./images/mdi_map-marker.png" alt="" />
+              <p>Cameroun</p>
+            </div>
+            <div className="right--midle">
+              <h4>Rejoignez la Compétition mondiale de Gaming</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Et euismod dictum nisi
+                ornare vel. Est tortor adipiscing lorem gravida egestas
+                tincidunt et nibh et.
+              </p>
+            </div>
+            <div className="right--down">
+              <div className="down--first">
+                <div className="down--top-left">
+                  <h3 className="yellowText down-title">1</h3>
+                  <p className="down--text">
+                    Compétition sur tout le territoire nationale
+                  </p>
+                </div>
+                <div className="down--top-right">
+                  <h3 className="yellowText down-title">16</h3>
+                  <p className="down--text">
+                    Participants sélectionnés sur l’ensemble du territoire
+                  </p>
+                </div>
+              </div>
+              <div className="down--second">
+                <div className="down--top-left">
+                  <h3 className="yellowText down-title">2</h3>
+                  <p className="down--text">Jeux en compétition</p>
+                </div>
+                <div className="down--top-right">
+                  <h3 className="yellowText down-title">100k $</h3>
+                  <p className="down--text">de prime pour les vainqueurs</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr className="divider3" />
+        </div>
+        <div className="section3--secondchild">
+          <div className="second--left">
+            <h4 className="second--title">
+              Avantage d’une carte membre gaming
+            </h4>
+
+            <div className="second--down">
+              <ol>
+                <li className="yellowText">
+                  Lorem ipsum dolor sit amet consectetur.
+                </li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Volutpat at id
+                  praesent ornare nulla vel.
+                </p>
+                <li className="yellowText">
+                  Lorem ipsum dolor sit amet consectetur.
+                </li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Volutpat at id
+                  praesent ornare nulla vel.
+                </p>
+                <li className="yellowText">
+                  Lorem ipsum dolor sit amet consectetur.
+                </li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Volutpat at id
+                  praesent ornare nulla vel.
+                </p>
+                <li className="yellowText">
+                  Lorem ipsum dolor sit amet consectetur.
+                </li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Volutpat at id
+                  praesent ornare nulla vel.
+                </p>
+                <li className="yellowText">
+                  Lorem ipsum dolor sit amet consectetur.
+                </li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Volutpat at id
+                  praesent ornare nulla vel.
+                </p>
+              </ol>
+            </div>
+          </div>
+          <div className="second--right">
+            <img
+              src="./images/DynamocartesBA-091.png"
+              alt=""
+              className="right--img1"
+            />
+            <img
+              src="./images/DynamocartesBA-111.png"
+              alt=""
+              className="right--img2"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="last--section">last section</div>
     </>
   );
 }

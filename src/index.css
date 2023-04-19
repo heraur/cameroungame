@@ -244,6 +244,7 @@ body {
   display: flex;
   padding: 5px 62px;
   position: relative;
+  width: 80%;
 }
 
 .container--imgsection > img {
@@ -258,6 +259,8 @@ body {
   width: 100%;
   background: linear-gradient(180deg, rgba(18, 18, 20, 0) 0%, #1a2a24 80%);
   opacity: 0.8;
+  padding-bottom: 30%;
+  z-index: -1;
 }
 
 .section2--childone {
@@ -539,6 +542,205 @@ body {
   padding: 15px 46px;
   color: #18181d;
   margin: 5% 40%;
+}
+
+/*.....................section 3 in main ................*/
+.section3 {
+  background-color: #182b25;
+}
+
+.section3--firstchild {
+  position: relative;
+  width: 90%;
+  height: 930px;
+  background: #121214;
+  border-radius: 17px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  z-index: 0;
+}
+
+.first--left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  isolation: isolate;
+
+  width: 40%;
+  height: 713px;
+}
+
+.left--img1 {
+  position: absolute;
+  width: 351.47px;
+  height: 500.84px;
+  left: 64px;
+  top: 312.17px;
+  transform: rotate(-11deg);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 5;
+}
+
+.left--img2 {
+  position: absolute;
+  width: 360px;
+  height: 525.01px;
+  left: 17%;
+  transform: rotate(11deg);
+  order: 0;
+  flex-grow: 0;
+  z-index: 3;
+  top: 10%;
+}
+
+.first--right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10% 8px 0px 0px;
+  gap: 30px;
+
+  width: 584px;
+  height: 686px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.right--up {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+  width: 452px;
+  height: 44px;
+  color: white;
+}
+
+.right--midle {
+  color: white;
+}
+
+.right--midle > h4 {
+  width: 100%;
+  height: 120px;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+}
+
+.right--midle > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  width: 90%;
+}
+
+.down--first {
+  display: flex;
+  text-align: center;
+}
+.down--second {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 2px 7%;
+}
+
+.down-title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.down--text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+}
+
+.divider3 {
+  top: 80%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    90deg,
+    #009649 0%,
+    #43e7ad 57.81%,
+    #fef200 100%
+  );
+  position: absolute;
+  width: 73%;
+  z-index: 1;
+  display: flex;
+  margin: 2% 10%;
+  left: 13%;
+}
+
+.section3--secondchild {
+  display: flex;
+  gap: 5%;
+  position: relative;
+  color: #fff;
+  width: 90%;
+  margin-top: 8%;
+  left: 8%;
+  padding-bottom: 8%;
+}
+
+.second--title {
+  font-family: "Clash Display";
+  font-style: normal;
+  width: 45%;
+  height: 104px;
+  left: 2%;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 108.5%;
+  letter-spacing: -0.403187px;
+  background: linear-gradient(90deg, #009649 0%, #43e7ad 57.81%, #fef200 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 4%;
+  position: relative;
+}
+
+.right--img1 {
+  position: absolute;
+  width: 24%;
+  height: 27rem;
+  top: -15%;
+  right: 20%;
+  transform: rotate(-9.13deg);
+}
+
+.right--img2 {
+  position: absolute;
+  width: 26%;
+  height: 28rem;
+  top: 14%;
+  right: 7%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transform: rotate(9deg);
 }
 
 /*...............footer ........................... */
